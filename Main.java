@@ -23,9 +23,9 @@ public class Main {
         kruskal.runKruskalAlgorithm(V, graphEdges, graphPanel);
         
 
-        // Kruskal com as arestas do arquivo CSV sem visualização gráfica
+        // // Kruskal com as arestas do arquivo CSV sem visualização gráfica
         // int V = 7605; // Número total de vértices do arquivo CSV
-    	// String filePath = "C:\\Users\\orfer\\eclipse-workspace\\grafos-tpa\\kruskal\\kruskal\\BTCAlphaNet.csv";
+    	// String filePath = "C:\\Users\\orfer\\OneDrive\\Área de Trabalho\\Ifes\\kruskal-graphs\\BTCAlphaNet.csv";
         // List<Kruskal.Edge> graphEdges = EdgeLoader.loadEdgesFromCSV(filePath);
 
         // kruskal.runKruskalAlgorithmNoGraphs(V, graphEdges);

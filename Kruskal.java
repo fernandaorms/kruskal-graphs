@@ -121,7 +121,7 @@ public class Kruskal {
         }
 
         // Gravar o resultado no arquivo
-        try (FileWriter writer = new FileWriter("output.txt")) {
+        try (FileWriter writer = new FileWriter("output-dataset.txt")) {
             writer.write("Arestas na MST:\n");
             double totalWeight = 0;
             for (Edge edge : result) {
@@ -129,7 +129,7 @@ public class Kruskal {
                 totalWeight += edge.weight;
             }
             writer.write(String.format("Peso total da MST: %.2f%n", totalWeight));
-            System.out.println("Resultado salvo em 'output.txt'");
+            System.out.println("Resultado salvo em 'output-dataset.txt'");
         } catch (IOException e) {
             System.err.println("Erro ao gravar no arquivo: " + e.getMessage());
         }
